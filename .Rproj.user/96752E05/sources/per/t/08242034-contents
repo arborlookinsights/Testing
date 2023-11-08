@@ -32,10 +32,8 @@ When running this document with [`{thematic}`](https://rstudio.github.io/themati
 ### ggplot2
 
 ```{r}
-library(ggplot2)
-
-ggplot(mpg, aes(displ, hwy)) +
-  geom_point() + geom_smooth()
+library(leaflet)
+leaflet() %>% addTiles()
 ```
 
 ### lattice
